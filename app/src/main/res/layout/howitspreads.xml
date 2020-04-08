@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/tittlewindow"
+            android:text="COVID-19 ৰ বীজাণু কেনেকৈ বিয়পে:"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/messagewindow"
+        android:layout_below="@+id/tittlewindow"
+        android:textSize="20dp"
+            android:textColor="#041633"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="1.স্পৰ্শৰ যোগেদি এইবিধ ভাইৰাছ বিয়পে।COVID-19ত আক্ৰান্ত  ব‍্যক্তিৰ শাৰীৰিক সংস্পৰ্শলৈ আহিলে আনজন ব‍্যক্তিৰ শৰীৰলৈ এই ৰোগৰ বীজাণু বিয়পে।অত‍্যধিক পৰিমাণৰ জনসমাগম হোৱা অৱস্হাত যেনে বিয়া -সবাহ,বজাৰ,বিভিন্ন প্ৰকাৰৰ ধৰ্মীয় অনুষ্ঠান আদিত এই ৰোগৰ বীজাণু সহজে এজন ব‍্যক্তিৰ পৰা আনজন ব‍্যক্তিৰ শৰীৰলৈ বিয়পে।
+
+\n \n \n 2.COVID-19ৰ উপস্হিতি থকা বা ইয়াৰ দ্বাৰা দূষিত হোৱা বস্তুৰ দ্বাৰাও ই মানুহৰ শৰীৰলৈ বিয়পে।উদাহৰণস্বৰূপে ৰাজহুৱা লিফট,ৰেলিং বা মানুহে সচৰাচৰ ব‍্যৱহাৰ কৰা বস্তুত যদি COVID-19ৰ বীজাণু থাকে,তেতিয়া তাক স্পৰ্শ কৰা ব‍্যক্তিজন এই বীজাণুৰ দ্বাৰা আক্ৰান্ত হয়।
+
+\n \n \n 3.আক্ৰান্ত ব‍্যক্তিৰ পৰা 1মিটাৰ এলেকাৰ ভিতৰত হাঁচি বা কাহৰ জৰিয়তে বায়ুৰ সহায়ত এই ৰোগৰ বীজাণু অন‍্য ব‍্যক্তিলৈ বিয়পে।অৱশ‍্যে এইবিধ ভাইৰাছ গধুৰ হোৱাৰ বাবে বায়ুত ই বেছি দূৰ যাব নোৱাৰে।" />
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

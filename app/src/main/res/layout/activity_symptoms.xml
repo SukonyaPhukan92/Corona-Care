@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#add8e6"
+tools:context=".symptoms">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/tittlewindow2"
+                android:text="COVID-19 ভাইৰাছ সংক্ৰমণৰ কিছুমান লক্ষণ:"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/messagewindow2"
+                android:layout_below="@+id/tittlewindow2"
+                android:textSize="20dp"
+                android:textColor="#041633"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="1.শুকান কাহ \n
+\n 2.ডিঙিৰ বিষ বা খচখচনি \n
+\n 3.উশাহ লোৱাত অসুবিধা
+\n \n 4.তীব্ৰ জ্বৰ
+\n \n 5.শৰীৰৰ কিছু অংশত বিষ
+\n \n 6.একেৰাহে পানী লগা
+\n \n 7.ডায়েৰি‌য়া
+\n \n উপৰুক্ত লক্ষণসমূহ দেখা দিলে সাৱধান হওঁক আৰু বিলম্ব নকৰি নিজৰ এলেকাৰ সমীপৰ স্বাস্হ‍্যকেন্দ্ৰৰ সৈতে যোগাযোগ কৰক।" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

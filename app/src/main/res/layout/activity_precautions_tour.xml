@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".precautions_tour">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+<RelativeLayout
+    android:id="@+id/handaway"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/texthandaway"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="ল'বলগীয়া সাৱধানতাসমূহ:"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imghandaway"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/facetouching"
+        android:layout_below="@+id/texthandaway"
+        />
+    <TextView
+        android:layout_below="@+id/imghandaway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="হাতখন  মুখ বা নাকৰ সংস্পৰ্শলৈ অহাৰ পৰা বিৰত ৰাখিব লাগে।"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/sanitizer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgsantizer"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/handwash"
+           />
+        <TextView
+            android:layout_below="@+id/imgsantizer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="হাতখন sanitizer(70%বা তাতকৈ অধিক এলক'হল যুক্ত) অথবা চাবোনেৰে অতি কমেও 20 ছেকেণ্ডৰ বাবে ধুৱক।এই  হাত ধোৱা কাৰ্য এক নিৰ্দিষ্ট সময়ৰ মূৰে মূৰে পুনৰাবৃত্তি কৰক।"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imghome"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/house"
+
+            />
+        <TextView
+            android:layout_below="@+id/imghome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="যিমান পাৰে নিজকে ঘৰতে বন্দী কৰি ৰাখক।"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgdistancing"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/distancing"
+
+            />
+        <TextView
+            android:layout_below="@+id/imgdistancing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="জনসমাগমৰ পৰা নিজক আঁতৰত ৰাখক।যিকোনো প্ৰকাৰৰ ৰাজহুৱা অনুষ্ঠানত অংশগ্ৰহণৰ পৰা বিৰত থাকক।"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgselfhome"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/mask"
+
+            />
+        <TextView
+            android:layout_below="@+id/imgselfhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ঘৰৰ বাহিৰলৈ ওলাব লগা পৰিস্হিতিৰ উদ্ভৱ হ'লে মুখত মাস্ক ব‍্যৱহাৰ কৰক।"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imghomeawy"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/distancing"
+            />
+        <TextView
+            android:layout_below="@+id/imghomeawy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="বেমাৰত আক্ৰান্ত হোৱা ব‍্যক্তিৰ পৰা সামাজিক দূৰত্ব বজাই ৰাখক।"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgcrowd"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/distancing"
+            />
+        <TextView
+            android:layout_below="@+id/imgcrowd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="পৰিয়ালৰ মানুহ বা অন‍্য মানুহৰ লগত যিমানদূৰ সম্ভৱ 1মিটাৰ দূৰত্ব বজাই ৰাখক।"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/finalx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgmask"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/mask"
+            />
+        <TextView
+            android:layout_below="@+id/imgmask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="কাহ বা হাঁচি মৰাৰ সময়ত মুখখন ঢাকি ৰাখক"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/finalx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\nচৰকাৰৰ দ্বাৰা ঘোষিত নিয়মবোৰৰ প্ৰতি সঁহাৰি জনাই প্ৰত‍্যেকেই এই মহামাৰীক প্ৰতিহত কৰাৰ যুঁজত চৰকাৰক সহায় কৰক।
+আহক আমি একেলগে এখন কৰুণামুক্ত অসম গঢ় দিওঁ।
+\n \n                  |জয় আই অসম|"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

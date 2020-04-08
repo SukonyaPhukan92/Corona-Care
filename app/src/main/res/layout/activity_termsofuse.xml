@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".termsofuse">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="10dp"
+    android:textColor="#000000"
+    android:layout_height="wrap_content"
+    android:text="Terms and Conditions:
+\n 1. This App was developed for fast deployment to spread awareness as much as we can to people. App was build vesy fast and so developers have not put much effort into finishing the project or debbugging errors. If you find any error or you have to update anything, you can pull a pull-request to GITHUB open source project - https://github.com/qubitankur/Corona-Care.git
+
+\n 2. No one of the group members have conducted any scientific research on CoVID-19. We content developers translated the required contents from official WHO | Ministry of Health and Family Walfare, India | Ministry of Health and Family Walfare,Assam websites. There can be changes in these contents as the research on Covid-19 is running around the world now.
+
+\n 3. This app does not use any user data.
+Permissons - Internet Access.
+
+\n 4. No one earns money from this App. This app is completely free for all.
+\n 5. Developers or any member of the team by no means is liable for any inaccuracy or unexpected harm caused directly or indirectly by this App.
+\n\n
+Websites used :
+\n1. https://covid19.india.org
+\n2. https://hfw.assam.gov.in
+
+
+
+"
+    />
+
+</LinearLayout>
+
+

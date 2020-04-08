@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "752951160759",
+    "firebase_url": "https://coronanotifications-fc034.firebaseio.com",
+    "project_id": "coronanotifications-fc034",
+    "storage_bucket": "coronanotifications-fc034.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752951160759:android:2224d0c97bac14a0370232",
+        "android_client_info": {
+          "package_name": "project.covid19break.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752951160759-rfmg934hueb2r770lsnnv0dgtd5qjcv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.covid19break.afinal",
+            "certificate_hash": "af4eeed8ce9d977e7237da57560f156b7e739114"
+          }
+        },
+        {
+          "client_id": "752951160759-bqsi0svbuq6nkv6ob6ieemkgv2uv19g2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2orUDNMZ8TRCB5Qjr24hmfNH7ArGcHQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752951160759-bqsi0svbuq6nkv6ob6ieemkgv2uv19g2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

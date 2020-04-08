@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_us">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="#041633"
+        android:layout_height="wrap_content"
+        android:text="This Android Application was developed and designed by following students:
+\n \n
+1. ANKUR PHUKON - APP DEVELOPER, JORHAT INSTITUTE OF SCIENCE AND TECHNOLOGY, ASSAM
+\n\n
+2. RAJLAKSMI GOGOI - CONTENT DEVELOPER, TECHNICAL ADVISOR, JORHAT ENGINEERING COLLEGE, ASSAM
+\n\n
+3. CHANDAN RAJBONGSHI - APP DESIGNER, TECHNICAL ADVISOR, JORHAT INSTITUTE OF SCIENCE AND TECHNOLOGY, ASSAM
+\n\n
+4. MRINAL PATRA - CONTENT DEVELOPER, JORHAT INSTITUTE OF SCIENCE OF TECHNOLOGY, ASSAM
+\n\n
+5. MURCHANA PHUKAN - CHIEF CONTENT EDITOR, GARGAON COLLEGE, ASSAM
+\n\n
+6. KAUSTOV DUWARAH - TECHNICAL ADVISOR, ASSAM ENGINEERING COLLEGE, ASSAM
+\n\n
+7. SUKANYA PHUKAN - TECHNICAL ADVISOR, JORHAT ENGINEERING COLLEGE, ASSAM
+\n\n
+8. ARPANA GOGOI - TECHNICAL ADVISOR, NATIONAL INSTITUTE TECHNOLOGY, ASSAM
+\n\n
+9. JYOTI SINGH - TECHNICAL ADVISOR, JORHAT ENGINEERING COLLEGE, ASSAM
+\n \n \n
+ADJUNCT MEMBER - ABHIJIT PHUKAN(BUILT THE TRACK ASSAM CASES SITE)
+\n
+Other Members -
+\n 1. MOHENDRA PHUKON -CONTENT EDITOR
+\n \n
+2. ANIMEKH PHUKON - CONTENT EDITOR
+        \n\n
+Developers can Join us at Telegram - t.me/@coronacaredev
+\n\n
+Thank You."
+    />
+    </RelativeLayout>
+</ScrollView>
+
+</LinearLayout>
