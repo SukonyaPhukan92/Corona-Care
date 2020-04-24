@@ -1,5 +1,5 @@
 # Corona-Care
-This is a android application which was build to spread awreness during COVID19 pandemic 2019.
+This is an android application which was build to spread awreness during COVID19 pandemic 2019.
 Contributors:
 1. ANKUR PHUKON - APP DEVELOPER, JORHAT INSTITIUTE OF SCIENCE AND TECHNOLOGY, ASSAM
 2. RAJLAKSMI GOGOI - CONTENT DEVELOPER, TECHNICAL ADVISOR, JORHAT ENGINEERING COLLEGE, ASSAM
@@ -12,6 +12,11 @@ Contributors:
 9. JYOTI SINGH - TECHNICAL ADVISOR, JORHAT ENGINEERING COLLEGE, ASSAM
 
 Adjunt Member - ABHIJIT PHUKAN(ASSAM CASES TRACKER - WEBSITE HANDLER, DEVELOPER)
+
 Other Members - 
+
 1. MOHENDRA PHUKON - EDITOR.
 2. ANIMEKH PHUKON - EDITOR
+
+<h3>Open Source Libs:</h3>
+https://github.com/anggarisky/SplashtoHomeAngga
